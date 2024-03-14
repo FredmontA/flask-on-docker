@@ -1,0 +1,194 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:46:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:46:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:47:40] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:47:49] "[31m[1mPOST /log HTTP/1.1[0m" 400 -
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:49:19] "[31m[1mPOST /log HTTP/1.1[0m" 400 -
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:49:30] "[31m[1mPOST /log HTTP/1.1[0m" 400 -
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619751', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:50:00] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619751', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 13:50:45] "POST /log HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:01:35] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:('SELECT id FROM ticket WHERE ticket_id = %s', '76986921: 56619752')
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:02:08] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:('SELECT id FROM ticket WHERE ticket_id = %s', '76986921: 56619752')
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:03:54] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:('SELECT id FROM ticket WHERE ticket_id = %s', '76986921: 56619752')
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:05:13] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = 76986921: 56619752
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:06:10] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = "76986921: 56619752"
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:06:49] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:07:56] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:10:53] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:16:18] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:project:<sqlalchemy.engine.result.ScalarResult object at 0x7ef25e827ed0>
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:19:41] "POST /log HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:project:[<Ticket 2>]
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:21:08] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:project:<built-in method count of list object at 0x736737f7d200>
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:24:56] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:25:16] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619752', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619752'
+INFO:project:1
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:25:39] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619753', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619753'
+INFO:project:0
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:25:52] "POST /log HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619753', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619753'
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:26:56] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619753', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619753'
+INFO:project:<built-in method count of list object at 0x7c51c2319180>
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:27:38] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619753', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619753'
+INFO:project:1
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:31:16] "POST /log HTTP/1.1" 200 -
+INFO:project:Request received: POST /log. Data: {'id': '76986921: 56619754', 'event_id': 2814457, 'organization_id': 377547, 'order_id': '59437406', 'reg_date': '2024-03-13 18: 44: 29', 'reg_id': 6142226, 'status': 'бесплатно', 'status_raw': 'ok', 'email': 'eeb-12@yandex.ru', 'surname': 'К', 'name': 'Ф', 'attended': False, 'code': '56619751', 'barcode': '1000566197519', 'price_nominal': '0', 'answers': [{'id': 8915785, 'type': 'text', 'name': 'E-mail', 'mandatory': '', 'value': 'eeb-12@yandex.ru'}, {'id': 8915786, 'type': 'text', 'name': 'Фамилия', 'mandatory': '', 'value': 'К'}, {'id': 8915787, 'type': 'text', 'name': 'Имя', 'mandatory': '', 'value': 'Ф'}], 'aux': {'use_ticket_remind': '1'}, 'org_name': 'Test webhook', 'event_name': 'Оффлайн тест вебхука', 'event_city': 'Тюмень', 'event_place': 'Магеллан,4-й этаж', 'hook_generated_at': '2024-03-13 18: 45: 00', 'hook_guid': '49d0f821-3aa0-40f4-bb63-fcd401ec1881', 'hook_triggered_at': '2024-03-13 18: 44: 29.716'}
+INFO:project:SELECT id FROM ticket WHERE ticket_id = '76986921: 56619754'
+INFO:project:0
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:31:24] "POST /log HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug:172.18.0.1 - - [14/Mar/2024 14:32:26] "[35m[1mPOST /log HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 768-709-429

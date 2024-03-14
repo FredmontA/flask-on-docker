@@ -1,0 +1,49 @@
+curl --location 'http://localhost:5000/log' \
+--header 'Content-Type: application/json' \
+--data '{
+        "id": "76986921: 56619751",
+        "event_id": 2814457,
+        "organization_id": 377547,
+        "order_id": "59437406",
+        "reg_date": "2024-03-13 18: 44: 29",
+        "reg_id": 6142226,
+        "status": "бесплатно",
+        "status_raw": "ok",
+        "email": "eeb-12@yandex.ru",
+        "surname": "К",
+        "name": "Ф",
+        "attended": False,
+        "code": "56619751",
+        "barcode": "1000566197519",
+        "price_nominal": "0",
+        "answers": [
+            {
+                "id": 8915785,
+                "type": "text",
+                "name": "E-mail",
+                "mandatory": None,
+                "value": "eeb-12@yandex.ru"
+            },
+            {
+                "id": 8915786,
+                "type": "text",
+                "name": "Фамилия",
+                "mandatory": None,
+                "value": "К"
+            },
+            {
+                "id": 8915787,
+                "type": "text",
+                "name": "Имя",
+                "mandatory": None,
+                "value": "Ф"
+            }
+        ],
+        "aux": {
+            "use_ticket_remind": "1"
+        },
+        "org_name": "Test webhook",
+        "event_name": "Оффлайн тест вебхука",
+        "event_city": "Тюмень",
+        "event_place": "Магеллан,4-й этаж", "hook_generated_at": "2024-03-13 18: 45: 00", "hook_guid": "49d0f821-3aa0-40f4-bb63-fcd401ec1881", "hook_triggered_at": "2024-03-13 18: 44: 29.716"
+    }'
