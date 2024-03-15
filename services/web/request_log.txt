@@ -192,3 +192,20 @@ INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloadin
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 768-709-429
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-824-365
+ERROR:werkzeug:198.235.24.77 - - [14/Mar/2024 23:41:15] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:198.235.24.77 - - [14/Mar/2024 23:41:15] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03'/5TÑû\x12YÍñ*\x06¯\x1dÀÞû¬ÚP;ßð¾\x9dÊk\x06µé)# \x98îá\x1f)\x04|\x80\x15¬&34\x89-_ÕE$\x81Íj\x0c\x9d":ðÇÂE\x1e\x02\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+ERROR:werkzeug:198.235.24.77 - - [14/Mar/2024 23:41:16] code 400, message Bad request version ('À(À$À\x14À')
+INFO:werkzeug:198.235.24.77 - - [14/Mar/2024 23:41:16] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x9a\x1d\x88\x9d\x15þU\x0bèVøPºxß×î¤Y\x06ô%9ÄA¿âw°//G\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+ERROR:werkzeug:185.170.144.3 - - [15/Mar/2024 00:22:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+INFO:werkzeug:185.170.144.3 - - [15/Mar/2024 00:22:04] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+INFO:werkzeug:205.210.31.201 - - [15/Mar/2024 02:31:28] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:64.62.197.88 - - [15/Mar/2024 06:12:11] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:64.62.197.88 - - [15/Mar/2024 06:12:11] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03hÀ/ìÒ·m;D\x81DÀß\x96 Í×ñAiì?¶\x9d{ÕôïE\x8a¼ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -

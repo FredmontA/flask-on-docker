@@ -47,7 +47,7 @@ class Ticket(db.Model):
 def log_request():
     # Log the details of the incoming request
     data = request.get_json()
-    app.logger.info('Request received: %s %s. Data: %s', request.method, request.path, data.dump())
+    app.logger.info('Request received: %s %s. Data: %s', request.method, request.path, data)
     str_timestamp = data['hook_generated_at']
     # Parse the string into a datetime object with time zone information
     dt = pytz.timezone("UTC").localize(datetime.strptime(str_timestamp, "%Y-%m-%d %H: %M: %S"))
